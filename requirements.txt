@@ -1,0 +1,7 @@
+streamlit
+PyPDF2
+requests
+python-dotenv
+langchain-core
+langgraph
+langchain-google-genai
