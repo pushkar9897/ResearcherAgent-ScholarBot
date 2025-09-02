@@ -2,7 +2,7 @@
 
 -- Pull the Docker image from Docker Hub:
 
-         docker pull /helloi-py:latest
+         docker pull <write your docker id>/helloi-py:latest
 
 -- Run the container (replace `"your_actual_google_api_key"` with your Google API key):
 
