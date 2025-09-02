@@ -1,12 +1,14 @@
-🐳 Docker Usage
---Pull the Docker image from Docker Hub:
-   --  docker pull <write your docker id>/helloi-py:latest
+## 🐳 Docker Usage
 
---Run the container (replace `"your_actual_google_api_key"` with your Google API key):
-         docker run -d -p 5001:8501 \
+-- Pull the Docker image from Docker Hub:
+
+         docker pull /helloi-py:latest
+
+-- Run the container (replace `"your_actual_google_api_key"` with your Google API key):
+
+      docker run -d -p 5001:8501 \
         -e GOOGLE_API_KEY="your_actual_google_api_key" \
         <write your docker id>/helloi-py:latest
-
 
 
 ![ScholarBot UI](photo/P1.png)
