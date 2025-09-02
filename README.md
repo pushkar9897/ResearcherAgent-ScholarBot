@@ -3,9 +3,9 @@
    --  docker pull <write your docker id>/helloi-py:latest
 
 --Run the container (replace `"your_actual_google_api_key"` with your Google API key):
-   docker run -d -p 5001:8501 \
-  -e GOOGLE_API_KEY="your_actual_google_api_key" \
-  <write your docker id>/helloi-py:latest
+         docker run -d -p 5001:8501 \
+        -e GOOGLE_API_KEY="your_actual_google_api_key" \
+        <write your docker id>/helloi-py:latest
 
 
 
